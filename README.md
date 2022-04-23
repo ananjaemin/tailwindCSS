@@ -15,6 +15,12 @@ tailwind + react 연습을 목표로 만들어진 사이트입니다.><br/>
         <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB">
       </th>
   </tr>
+   <tr>
+      <td>상태 관리</td>
+      <th>
+       <img src="https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white">
+      </th>
+  </tr>
   <tr>
       <td>CSS-in-Js</td>
       <th>
