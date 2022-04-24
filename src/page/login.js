@@ -1,5 +1,3 @@
-import './login.css'
-
 
 function login() {
   return (
