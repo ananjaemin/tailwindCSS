@@ -13,6 +13,7 @@ function Header(){
               <Link className='mx-4' to="">ABOUT</Link>
               <Link className='mx-4' to="">WARGAME</Link>
               <Link className='mx-4' to="">NOTICE</Link>
+              <Link className='mx-4' to="/Todo">ToDo</Link>
             </div>
           </div>
           <div className='w-[196.44px] h-full flex items-center justify-center'>
