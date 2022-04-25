@@ -23,7 +23,7 @@ function UseHome({toDos,addToDo}) {
                         <input className="w-[150px] h-[20px] mt-3" type="text" value={input} onChange={Inputhandle} />
                         <button>Add</button>
                     </form>
-                        <div className="flex flex-col ml-2 w-[60%]">
+                        <div className="flex flex-col ml-2 w-[60%] overflow-auto">
                             {toDos.map(toDo => (
                                 <ToDo {...toDo} key={toDo.id}/>
                             ))}
