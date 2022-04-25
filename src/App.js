@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter,Route,Routes } from "react-router-dom";
-import Login from "./page/login";
-import Home from "./page/home";
+import Login from "./pages/login";
+import UseHome from "./pages/home";
 import Header from './component/layout';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
         <Header />
         <Routes>
-          <Route exact path="/" element={<Home></Home>}/>
+          <Route exact path="/" element={<UseHome></UseHome>}/>
           <Route path='/login' element={<Login></Login>}/>
         </Routes>
     </BrowserRouter>

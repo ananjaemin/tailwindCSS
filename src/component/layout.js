@@ -5,9 +5,9 @@ function Header(){
     return(
         <div className='w-full h-20 flex items-center justify-center mb-4'>
         <div className='w-11/12 h-full flex items-center justify-between'>
-          <div className='h-full flex items-center text-stone-100 text-3xl font-bold whitespace-nowrap'>
+          <Link to="" className='h-full flex items-center text-stone-100 text-3xl font-bold whitespace-nowrap'>
             HANSEI - CTF
-          </div>
+          </Link>
           <div className='w-3/5 h-full flex items-center justify-center'> 
             <div className='w-7/12 h-full flex items-center justify-evenly whitespace-nowrap font-bold text-stone-100 '>
               <Link className='mx-4' to="">ABOUT</Link>
