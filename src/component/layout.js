@@ -12,7 +12,7 @@ function Header(){
             <div className='w-7/12 h-full flex items-center justify-evenly whitespace-nowrap font-bold text-stone-100 '>
               <Link className='mx-4' to="">ABOUT</Link>
               <Link className='mx-4' to="">WARGAME</Link>
-              <Link className='mx-4' to="">NOTICE</Link>
+              <Link className='mx-4' to="/Notice">NOTICE</Link>
               <Link className='mx-4' to="/Todo">ToDo</Link>
             </div>
           </div>
